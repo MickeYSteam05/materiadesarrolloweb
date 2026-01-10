@@ -1,0 +1,30 @@
+Este se corre una vez para instalar el server, se requiere Node js
+    npm install -g live-server
+
+
+
+
+Cuando se quiera correr, solo correr este comando
+    live-server
+
+
+
+
+
+git status
+
+git add .
+
+git commit -m "mensaje"
+
+git push origin main
+
+
+
+RECUERDEN TRABAJAR SOBRE BRANCHES
+
+git branch nombreBranch
+
+git checkout nombreBranch
+
+git push origin nombreBranch
