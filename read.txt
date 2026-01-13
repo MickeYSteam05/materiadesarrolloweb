@@ -28,3 +28,8 @@ git branch nombreBranch
 git checkout nombreBranch
 
 git push origin nombreBranch
+
+
+
+Actualizar main
+    git pull origin main
