@@ -33,3 +33,6 @@ git push origin nombreBranch
 
 Actualizar main
     git pull origin main
+
+    git merge nombreBranch
+
