@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000; 
+            color: white;
+        }
+
+        .header {
+            background-color: #111;
+            padding: 15px;
+        }
+
+        .menu a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .redes {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            color: black; 
+        }
+
+        .foto {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #111;
+        }
+
+        .btn-facebook {
+            background-color: #1877f2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .btn-instagram {
+            background-color: #e1306c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .btn-facebook:hover,
+        .btn-instagram:hover {
+            opacity: 0.8;
+        }
+
+        .footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+<header class="header">
+    <nav class="menu" id="menu">
+        <a href="index.html" id="menu-contacto">Pagina principal</a>
+        <a href="paginamickey.html" id="menu-juegos">Mickey</a>
+        <a href="paginaroy.html" id="menu-juegos">Roy</a>
+    </nav>
+</header>
+
+<main class="main-content">
+    <h1>Bienvenido a la pagina de Leo</h1>
+    <p>HOLAAAAAAA, SOY LEO y esta es la actividad 2 de APP WEB.</p>
+
+    <div class="redes">
+        <table>
+            <tr>
+                <td colspan="2" align="center">
+                    <img src="imagenes/fotoleo.jpg" alt="Mi foto" class="foto">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="padding-top:15px;">
+                    <a href="https://www.facebook.com/share/1AmpYkWxJe/" target="_blank" class="btn-facebook">
+                      Facebook
+                    </a>
+
+                </td>
+                <td align="center" style="padding-top:15px;">
+                    <a href="https://www.instagram.com/leoo._.rc?igsh=MWVrZTlybXZyNDhkaA==" target="_blank" class="btn-instagram">
+                        Instagram
+                    </a>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</main>
+
+</body>
+</html>

@@ -1,21 +1,47 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Otra pagina</title>
+  <title>Pagina mickey</title>
   <link rel="stylesheet" href="style1.css">
 </head>
 
 
 
 <body>
+  <header class="header">
+
+    <nav class="menu" id="menu">
+        <a href="index.html"> Pagina principal</a>
+        <a href="paginaroy.html"> Roy</a>
+        <a href="paginaleo.html"> Leo </a>
+        <a href="paginaemilio.html"> Emilio </a>
+    </nav>
+</header>
   <h1>MICKEY</h1>
+
+  <h2>Etiqueta progress: <progress></progress></h2>
+  <p>Esta etiqueta sirve para poder desplegar el progreso de una tarea u otra cosa mediante una barra de progreso</p>
+  <p>EJEMPLO:</p>
   
+    <label for="tarea">Progreso: </label>
+    <progress id="tarea" value="0" max="100"></progress>
+    <span id="percent">0%</span>
+
+    <button id="btnm1" onclick="incrementarProgreso10()">Aumentar 10</button>
+
   <a href="index.html">
     <button onclick="history.back()">Regresar</button>
   </a>
 
+
+
+
+
+  <footer class="footer">
+    <p class="no-padding">© 2026. All rights reserved to the student.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
 
