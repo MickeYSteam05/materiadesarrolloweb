@@ -35,6 +35,25 @@
             text-align: center;
             padding: 10px;
         }
+        table {
+    margin: 20px auto;      /* centra la tabla */
+    border-collapse: collapse;
+    width: 60%;
+    }
+
+    table, th, td {
+        border: 2px solid #000;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    caption {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
     </style>
 </head>
 </head>
@@ -52,6 +71,12 @@
     <h1>Bienvenido a la pagina de Roy</h1>
     <p>Aqui encontraras una breve descripcion sobre mi y mis redes sociales para que me sigas.</p>
 
+    <div class="progress-container">
+        <label for="progreso">Progreso del perfil:</label><br><br>
+        <progress id="progreso" value="60" max="100"></progress>
+        <p>60% completado</p>
+    </div>
+
     <div>
         <table>
   <caption>Redes</caption>
@@ -64,7 +89,7 @@
   </thead>
   <tbody> <!-- Opcional, para agrupar el cuerpo -->
     <tr>
-      <td>J
+      <td>
         <a href="https://www.instagram.com/ajax.hdz?igsh=MTI5YmQwMmdiMjVsbQ=="> Insta </a>
       </td>
       <td>
