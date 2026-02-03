@@ -29,14 +29,14 @@
 
 
 
-<style> .resultado { margin-top: 2rem; padding: 1rem; 
-background: rgba(0,0,0,0.6); border: 2px solid #00e0ff; 
-border-radius: 1rem; color: #f8f8ff; font-size: 1.4rem; 
-text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
-width: 80%; } 
-.resultado:empty { display: none; /* oculta el div si está vacío */ 
-} 
-.resultado, .resultado * { color: #f8f8ff !important; } </style>
+  <style> .resultado { margin-top: 2rem; padding: 1rem; 
+  background: rgba(0,0,0,0.6); border: 2px solid #00e0ff; 
+  border-radius: 1rem; color: #f8f8ff; font-size: 1.4rem; 
+  text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
+  width: 80%; } 
+  .resultado:empty { display: none; /* oculta el div si está vacío */ 
+  } 
+  .resultado, .resultado * { color: #f8f8ff !important; } </style>
 
   <footer class="footer">
     <p class="no-padding">© 2026. All rights reserved to the students.</p>
