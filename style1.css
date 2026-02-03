@@ -71,6 +71,21 @@
     p.no-padding{
         padding-bottom: 0px;
     }
+    label{
+        color: aliceblue;
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    input{
+        color:rgb(228, 208, 252);
+        background: linear-gradient(45deg, #001b35, #230041);
+        font-size: 2rem;
+        padding: 1rem;
+        cursor:pointer;
+        border-radius: 1rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
     span{
         color: aliceblue;
         font-size: 1rem;
@@ -129,6 +144,24 @@
         width: 15%;
         height: 15%;
     }
-
-
+    form{
+        color:rgb(228, 208, 252);
+        background: linear-gradient(45deg, #001b35, #230041);
+        font-size: 2rem;
+        padding: 1rem;
+        cursor:pointer;
+        border-radius: 1rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+     .table{
+    margin-top:2rem; 
+    padding-top: 1rem;
+    border-collapse:collapse; 
+    text-align:center; 
+    color:#f8f8ff; 
+    font-size:1.2rem; 
+    background:rgba(0,0,0,0.6); 
+    border:2px solid #00e0ff;
+  }
    

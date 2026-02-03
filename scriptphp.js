@@ -3,7 +3,7 @@ function probarConexion() {
 
   fetch("conexion.php")
     .then(response => {
-      console.log("Respuesta recibida:", response); // Ver qué llega
+      console.log("Respuesta recibida:", response); // Ver que llega
       if (!response.ok) {
         throw new Error("Error HTTP: " + response.status);
       }

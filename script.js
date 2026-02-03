@@ -16,9 +16,4 @@ function incrementarProgreso10()
   }
 
 
-
-  // Para horoscopos
-
-
-
   document.getElementById("btnm1").addEventListener("click", increaseProgress);
