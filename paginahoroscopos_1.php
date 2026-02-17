@@ -21,7 +21,7 @@
 </header>
   <h1>Datos del formulario</h1>
 
-  
+  <p>
     <?php 
         $nombre = $_REQUEST['nombre'];
         $ap_paterno = $_REQUEST['ap_paterno'];
@@ -39,7 +39,7 @@
         echo ("La contraseña es $contrasena<br>");
         echo ("El género es $genero<br>");
     ?>
-
+  </p>
 
 
   <footer class="footer">
