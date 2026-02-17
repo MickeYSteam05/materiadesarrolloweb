@@ -141,14 +141,14 @@
         border-radius: 2rem;
     }
     img.zodiaco{
-        width: 15%;
-        height: 15%;
+        width: 300;
+        height: 300;
     }
     form{
         color:rgb(228, 208, 252);
-        background: linear-gradient(45deg, #001b35, #230041);
+        background: none;
         font-size: 2rem;
-        padding: 1rem;
+        padding: 2rem;
         cursor:pointer;
         border-radius: 1rem;
         transition: all 0.3s ease;
@@ -163,5 +163,7 @@
     font-size:1.2rem; 
     background:rgba(0,0,0,0.6); 
     border:2px solid #00e0ff;
+
+
   }
    

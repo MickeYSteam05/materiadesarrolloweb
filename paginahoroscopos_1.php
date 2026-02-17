@@ -21,7 +21,7 @@
 </header>
   <h1>Datos del formulario</h1>
 
-
+  
     <?php 
         $nombre = $_REQUEST['nombre'];
         $ap_paterno = $_REQUEST['ap_paterno'];
