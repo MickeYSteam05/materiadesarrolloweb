@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Horóscopos</title>
+  <link rel="stylesheet" href="style1.css">
+    <script src="script_form_horoscopos.js"></script>
+</head>
+
+
+
+<body>
+    <header class="header">
+
+        <nav class="menu" id="menu">
+            <a href="index.html"> Pagina principal</a>
+            <a href="paginamickey.html"> Mickey</a>
+            <a href="paginaroy.html"> Roy</a>
+            <a href="paginaleo.html"> Leo </a>
+            <a href="paginaemilio.html"> Emilio </a>
+        </nav>
+    </header>
+
+    <form action="datos_form_horoscopos.php" method="post">
+    Hora de nacimiento: <br><input type="time" name="hora_nac">
+    <br><br>
+    Fecha de nacimiento: <br><input type="date" name="fecha_nac">
+    <br><br>
+    Tienes pareja? <br>
+    <input type="radio" name="tiene_pareja" value="si" onclick="mostrarExtras(true)" required> 
+    <label>Sí</label>
+
+    <input type="radio" name="tiene_pareja" value="no" onclick="mostrarExtras(false)" required> 
+    <label>No</label>
+    <br><br>
+    <div id="campos_extra" style="display: none; margin-top: 15px; border-left: 3px solid #ccc; padding-left: 10px;">
+        Hora de nacimiento de tu pareja: <br><input type="time" name="hora_nac_par">
+        <br><br>
+        Fecha de nacimiento de tu pareja: <br><input type="date" name="fecha_nac_par">
+        <br><br>
+    </div>
+
+    Enfermedades que hayas tenido en el año: <br><input type="text" name="enfermedades">
+    <br><br>
+
+    Situación financiera: <br>
+    <input type="radio" name="sit_fin" value="buena" required> <label>Buena</label>
+    <input type="radio" name="sit_fin" value="mala" required> <label>Mala</label>
+    <input type="radio" name="sit_fin" value="regular" required> <label>Regular</label>
+    <br><br>
+    Situación laboral: <br>
+    <input type="radio" name="sit_lab" value="desempleado" required> <label>Desempleado</label>
+    <input type="radio" name="sit_lab" value="empleado" required> <label>Empleado</label>
+    <input type="radio" name="sit_lab" value="empresario" required> <label>Empresario</label>
+    <br><br>
+    <input type="submit" value="Enviar">
+  </form>
+
+
+
+
+
+
+  <footer class="footer">
+    <p class="no-padding">© 2026. All rights reserved to the students.</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
