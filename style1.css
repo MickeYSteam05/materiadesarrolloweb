@@ -1,160 +1,176 @@
-    body{
-        background: linear-gradient(45deg, #061d00, #001930);
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        min-height: 120vh;
+/* Mujer: Rosa suave a un tono un poco más intenso */
+body.calido {
+    background: linear-gradient(45deg, #ffc0cb, #ff85a2) !important;
+    color: black !important;
+}
+
+/* Hombre: Azul cielo a un azul un poco más profundo */
+body.frio {
+    background: linear-gradient(45deg, #87ceeb, #4682b4) !important;
+    color: black !important;
+}
+
+body.calido h1, body.calido h2, body.calido p, body.calido label,
+body.frio h1, body.frio h2, body.frio p, body.frio label {
+    color: black !important;
+}
+body{
+    background: linear-gradient(45deg, #061d00, #001930);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh;
+}
+.header {
+    background: linear-gradient(0deg, #160815, #1d0219);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu a {
+    color: white;
+    margin-right: 1.5rem;
+    text-decoration: none;
     }
-    .header {
-        background: linear-gradient(0deg, #160815, #1d0219);
-        padding: 1rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: right;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-    .menu a {
-        color: white;
-        margin-right: 1.5rem;
-        text-decoration: none;
-        }
-    .menu a:hover {
-        text-decoration: underline;
-    }
-    .main-content {
-        padding: 2rem;
-        text-align: center;
-    }
-    .footer {
-        background-color: #222;
-        color: white;
-        text-align: center;
-        padding: 0.1rem;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-    }
-    .footer.main{
-        position: static;
-        background-color: #222;
-    }
-    .slider { 
-        display: flex; 
-        align-items: center; 
-        justify-content: center; 
-        gap: 20px; 
-    }.containerCentrado{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 2rem;
-    }
-    h1{
-        text-align: center;
-        font-size:5rem;
-        color: cornsilk;
-    }
-    h2{
-        text-align: center;
-        font-size:2.5rem;
-        color: cornsilk;
-    }
-    p{
-        color: aliceblue;
-        font-size: 1rem;
-        padding-bottom: 1rem;
-    }
-    p.no-padding{
-        padding-bottom: 0px;
-    }
-    label{
-        color: aliceblue;
-        font-size: 1rem;
-        padding-bottom: 1rem;
-    }
-    input{
-        color:rgb(228, 208, 252);
-        background: linear-gradient(45deg, #001b35, #230041);
-        font-size: 2rem;
-        padding: 1rem;
-        cursor:pointer;
-        border-radius: 1rem;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    }
-    span{
-        color: aliceblue;
-        font-size: 1rem;
-    }
-    label{
-        color: aliceblue;
-        font-size: 1rem;
-    }
-    button{
-        color:rgb(228, 208, 252);
-        background: linear-gradient(45deg, #001b35, #230041);
-        font-size: 2rem;
-        padding: 1rem;
-        cursor:pointer;
-        border-radius: 1rem;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    }
-    button:hover{
-        transform: scale(1.1);
-        background: linear-gradient(45deg, #860080, #003f7a);
-        box-shadow: 0 6px 10px rgba(0,0,0,0.3);
-    }
-    progress{
-        width: 15rem;
-        height: 1.8rem;
-    }
-    ul{
-        color: rgb(0, 238, 255);
-        font-size: 1.8rem;
-    }
-    li{
-        color: rgb(255, 0, 200);
-        font-size: 1.5rem;
-    }
-    a{
-        color:rgb(180, 0, 165);
-        font-size: 1.2rem;
-        padding: 0.5rem;
-    }
-    td{
-        color:cornsilk;
-        font-size: larger;
-        text-align: center;
-    }
-    th{
-        color: rgb(201, 234, 255);
-        font-size: 1.6rem;
-        text-align: center;
-        padding: 1rem; /* y, x*/
-    }
-    img{
-        border-radius: 2rem;
-    }
-    img.zodiaco{
-        width: 300;
-        height: 300;
-    }
-    form{
-        color:rgb(228, 208, 252);
-        background: none;
-        font-size: 2rem;
-        padding: 2rem;
-        cursor:pointer;
-        border-radius: 1rem;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    }
-     .table{
+.menu a:hover {
+    text-decoration: underline;
+}
+.main-content {
+    padding: 2rem;
+    text-align: center;
+}
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 0.1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer.main{
+    position: static;
+    background-color: #222;
+}
+.slider { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+}.containerCentrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+h1{
+    text-align: center;
+    font-size:5rem;
+    color: cornsilk;
+}
+h2{
+    text-align: center;
+    font-size:2.5rem;
+    color: cornsilk;
+}
+p{
+    color: aliceblue;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+p.no-padding{
+    padding-bottom: 0px;
+}
+label{
+    color: aliceblue;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+input{
+    color:rgb(228, 208, 252);
+    background: linear-gradient(45deg, #001b35, #230041);
+    font-size: 2rem;
+    padding: 1rem;
+    cursor:pointer;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+span{
+    color: aliceblue;
+    font-size: 1rem;
+}
+label{
+    color: aliceblue;
+    font-size: 1rem;
+}
+button{
+    color:rgb(228, 208, 252);
+    background: linear-gradient(45deg, #001b35, #230041);
+    font-size: 2rem;
+    padding: 1rem;
+    cursor:pointer;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+button:hover{
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #860080, #003f7a);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+}
+progress{
+    width: 15rem;
+    height: 1.8rem;
+}
+ul{
+    color: rgb(0, 238, 255);
+    font-size: 1.8rem;
+}
+li{
+    color: rgb(255, 0, 200);
+    font-size: 1.5rem;
+}
+a{
+    color:rgb(180, 0, 165);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+td{
+    color:cornsilk;
+    font-size: larger;
+    text-align: center;
+}
+th{
+    color: rgb(201, 234, 255);
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem; /* y, x*/
+}
+img{
+    border-radius: 2rem;
+}
+img.zodiaco{
+    width: 300px;
+    height: 300px;
+}
+form{
+    color:rgb(228, 208, 252);
+    background: none;
+    font-size: 2rem;
+    padding: 2rem;
+    cursor:pointer;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.table{
     margin-top:2rem; 
     padding-top: 1rem;
     border-collapse:collapse; 
@@ -163,7 +179,4 @@
     font-size:1.2rem; 
     background:rgba(0,0,0,0.6); 
     border:2px solid #00e0ff;
-
-
-  }
-   
+}
