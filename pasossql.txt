@@ -35,6 +35,25 @@ INSERT INTO persona (
     'Juan', 'Perez', 'Flores', 'juanG0d', 'juan@example.com', 'contra', 1, 3
 );
 
+INSERT INTO enfermedad (nombre) VALUES ('Gripe'), ('Covid-19'), ('Migraña'), ('Cancer'), ('Artritis'), ('Hipertensión'), ('Hipotensión');
+
+INSERT INTO situacion_financiera (estado) VALUES ('Buena'), ('Mala'), ('Regular');
+INSERT INTO situacion_laboral (estado) VALUES ('Desempleado'), ('Empleado'), ('Empresario');
+
+
+INSERT INTO pareja (
+    id_persona, hora_nacimiento, dia_nacimiento, mes_nacimiento, anio_nacimiento
+) VALUES (
+    5, '08:30', 15, 6, 1995
+);
+
+
+INSERT INTO persona_enfermedad (id_persona, id_enfermedad, anio)
+VALUES (5, 8, 2025);
+
+INSERT INTO compatibilidad (id_persona, id_pareja, tipo)
+VALUES (5, 6, 'Almas gemelas');
+
 
 
 
