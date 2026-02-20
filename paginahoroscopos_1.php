@@ -31,11 +31,7 @@
 
   <h1>Datos del formulario</h1>
 
-<<<<<<< HEAD
-  <p>
-=======
   <p class="datos-resultado">
->>>>>>> fe77cbe82e3eae88ff983db21bf53c0ff3aa2d18
     <?php 
         echo ("El nombre es $nombre<br>");
         echo ("El apellido paterno es $ap_paterno<br>");
@@ -46,10 +42,6 @@
         echo ("El género es $genero<br>");
     ?>
   </p>
-<<<<<<< HEAD
-
-=======
->>>>>>> fe77cbe82e3eae88ff983db21bf53c0ff3aa2d18
 
   <footer class="footer">
     <p class="no-padding">© 2026. All rights reserved to the students.</p>
