@@ -1,0 +1,45 @@
+en psql
+
+Crear la base de datos
+	CREATE DATABASE db_horoscopos;
+
+
+Correr script para generar tablas
+	psql -d db_horoscopos -f scripthoroscopos.sql
+
+
+	INSERCION DE DATOS (Primero en las tablas que no dependen de otras)
+
+
+INSERT INTO genero (genero) VALUES ('Masculino'), ('Femenino'), ('No binario');
+
+
+INSERT INTO horoscopo (nombre, descripcion) VALUES
+('Aries', 'Del 21 de marzo al 19 de abril'),
+('Tauro', 'Del 20 de abril al 20 de mayo'),
+('Géminis', 'Del 21 de mayo al 20 de junio'),
+('Cáncer', 'Del 21 de junio al 22 de julio'),
+('Leo', 'Del 23 de julio al 22 de agosto'),
+('Virgo', 'Del 23 de agosto al 22 de septiembre'),
+('Libra', 'Del 23 de septiembre al 22 de octubre'),
+('Escorpio', 'Del 23 de octubre al 21 de noviembre'),
+('Sagitario', 'Del 22 de noviembre al 21 de diciembre'),
+('Capricornio', 'Del 22 de diciembre al 19 de enero'),
+('Acuario', 'Del 20 de enero al 18 de febrero'),
+('Piscis', 'Del 19 de febrero al 20 de marzo');
+
+
+INSERT INTO persona (
+    nombre, apellido_paterno, apellido_materno, nick, correo, contraseña, id_genero, id_horoscopo
+) VALUES (
+    'Juan', 'Perez', 'Flores', 'juanG0d', 'juan@example.com', 'contra', 1, 3
+);
+
+
+
+
+	VERIFICAR LA INSERCION DE DATOS
+SELECT * FROM persona;
+SELECT * FROM genero;
+SELECT * FROM horoscopo;
+
