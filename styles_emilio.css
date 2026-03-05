@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+:root {
+  --charcoal-blue: #464655;
+  --dusty-rose: #af7a6d;
+  --wheat: #f5dfbb;
+  --vibrant-coral: #f07167;
+  --powder-blue: #93bedf;
+}
+
+a {
+    font-size: 0.8rem;
+}
+
+#table_artistas {
+    text-align: center;
+    color: var(--charcoal-blue);
+    border-collapse: collapse;
+    border: 3px solid var(--powder-blue); /* Ancho, Estilo y Color*/
+    width: 100%;
+}
+
+#table_artistas td, #table_artistas th {
+    border: 2px solid var(--powder-blue); 
+    padding: 10px;
+}
+
+#div_yo {
+    font-family: 'Michroma';
+    padding: 20px;
+    text-align: center;
+    background-color: var(--wheat);
+}
